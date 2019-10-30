@@ -1,0 +1,583 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6
+{
+    color: #303030;
+    line-height: 1.38em;
+    font-family: inherit;
+}
+.header
+{
+    overflow: auto;
+    background-color: 
+}
+
+.layer
+{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header .logo
+{
+    width: 60%;
+    float: left;
+}
+.header .nav
+{
+    width:40%;
+    float: left;
+    list-style-type: none;
+}
+.header .nav li
+{
+    display: inline-block;
+    padding: 25 10;
+}
+.header .nav li a
+{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.btn1
+{
+    padding: 10 20;
+    background-color:white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+.header .nav .btn1:hover
+{
+    background-color: green;
+    color: white;
+}
+.home
+{
+    height: 800px;
+    background-image: url(progect3.jpg);
+    background-size: cover;
+    
+}
+.home .home-section
+{
+    text-align: center;
+    width: 60%;
+    margin:auto;
+    padding: 200 100;
+    
+}
+.home .home-section p{
+    font-size: 20px;
+    line-height: 1.3em;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.home .home-section h1
+{
+    font-size: 
+    font-weight: 400;
+    font-family: inherit;
+    color: white;
+    text-align: center;
+    padding: 20 0;
+}
+.home .home-section .btn2
+{
+    padding: 20 40;
+    background-color: #4caf50;
+}
+.works
+{
+    margin: 80 0;
+    overflow: auto;
+
+}
+
+.work
+{
+
+    width: 30%;
+    float: left;
+    overflow: auto;
+}
+.sol
+{
+    margin: 0% 5%;
+}
+.works .work .ico
+{
+    width: 10%;
+    float: left;
+    color: green;
+}
+.works .work .pri
+{
+    width: 90%;
+    float: left;
+}
+.pri h5,h6
+{
+    font-size: 18px;
+    font-family: inherit;
+    line-height: 1.38em;
+    font-weight: 500;
+    color: #303030;
+}
+p
+{
+    font-size: 16px;
+    color:#888;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height:1.38em ;
+}
+.services
+{
+    background-color: #f8f8f8;
+}
+.services .serv 
+{
+   text-align: center;
+    margin: 50 0 30 0;
+    padding: 60 30 30 30;
+}
+.services .items
+{
+    margin-bottom: 80px;
+    overflow: auto;
+    
+}
+
+.services .items .item 
+{
+    padding-bottom: 35px;
+    width: 30%;
+    float: left;
+}
+.services .items .item img
+{
+    width: 100%;
+}
+.item2
+{
+    margin: 0 5% ;
+}
+.itemicon
+{
+    overflow: auto;
+}
+.itemicon .linkitem
+{
+    width: 25% ;
+    float: left;
+
+}
+.itemicon .linkitem a
+{
+    text-decoration: none;
+    color: #888;
+    text-transform: capitalize;
+}
+.itemicon .icons
+{
+    width: 75%;
+    float: left;
+    margin-top: 5px;
+}
+
+.secrets
+{
+    overflow: auto;
+    margin-bottom: 70px;
+
+}
+.part1
+{
+    width: 60%;
+
+    float: left;
+    bac
+}
+.part2
+{
+    width: 40%;
+    float: left;
+}
+.part2 img
+{
+    width: 100%;
+}
+
+.secreti1
+{
+    overflow: auto;
+}
+.secreti2
+{
+    width: 3%;
+    float: left;
+}
+.secreti3
+{
+    width: 97%;
+    float: left;
+}
+.secreti2 i
+{
+    color: green;
+}
+
+.part1p h3{
+    padding: 50 10 30 10 ;
+    
+}
+.he3
+{
+    padding: 40 20 40 0;
+} 
+.secreti1{
+    padding: 12 0;
+}
+.part1 button
+{
+    background-color: #4caf50;
+    color: white;
+    padding: 15 30;
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* company*/
+.company
+{
+    overflow: auto;
+    margin-bottom: 35px;
+    background-color: #f8f8f8;
+    
+    
+}
+.apple 
+{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.sms
+{
+    text-align: center;
+}
+.apple1
+{
+    width: 30%;
+    float: left;
+    
+    padding: 1%;
+}
+.apple2
+{
+    margin: 0 2%;
+}
+.apple1 p
+{
+    background-color: white;
+    padding: 30;
+}
+.mc
+{
+    padding: 5 30; 
+    
+}
+.sms
+{
+    text-align: center;
+    margin: 80 auto;
+}
+.next
+{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.next 
+{
+    color: gray;
+}
+.sms i
+{
+    color: green;
+}
+.pages
+{
+    overflow: auto;
+    
+    margin: 80 0;
+}
+.page1 
+{
+    text-align: center;
+    width: 25%;
+    float: left;
+    padding: 20 0;
+}
+.pageicon
+{
+    padding: 15 0;
+    font-size: 34px;
+    line-height: 36px;
+    color: #000;
+    font-weight: 400;
+}
+.pagenumber
+{
+    font-size: 52px;
+    color: #000;
+    padding: 15 0;
+}
+.pagecomment p
+{
+    padding: 15 0;
+    font-size: 20px;
+    
+}
+.add
+{
+    background-image: url(progect4.jpg);
+    background-size: cover;
+}
+.add1
+{
+    text-align: center;
+    width: 60%;
+    margin:auto;
+    padding: 200 100; 
+}
+.add1 h2
+{
+    font-size: 
+    font-weight: 400;
+    font-family: inherit;
+    color: white;
+    text-align: center;
+    padding: 20 0;
+}
+.add1 p
+{
+    font-size: 20px;
+    line-height: 1.3em;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.add1 button
+{
+    padding: 18 40;
+    background-color: #4caf50; 
+    border-radius: 4px;
+    color: white;
+}
+
+/*other*/
+
+.others
+{
+
+}
+.other
+{
+    text-align: center;
+    margin-top: 70px;
+}
+.otherp
+{
+    overflow: auto;
+    margin: 15 0;
+}
+.otherc
+{
+    width: 30%;
+    float: left;
+    padding: 40 0 ;
+}
+.otherc1
+{
+    margin: 0 5%;
+}
+
+
+
+
+
+/* images*/
+
+.views
+{
+    overflow: auto;
+    background-color: #f8f8f8;
+    padding: 80 0;
+}
+.view 
+{
+    width: 20%;
+    float: left;
+}
+
+/* contact*/
+
+.contacts
+{
+    overflow: auto;
+    background-color: #4caf50;
+    padding: 60 0;
+}
+.contact1
+{
+    margin-top: 10 0 0 0;
+    width: 88%;
+    float: left;
+}
+.contact2
+{
+    width: 12%;
+    float: left;
+}
+.btn3
+{
+    padding: 20 28;
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+}
+.contact1 h2
+{
+    padding: 7 0;
+    font-size: 36px;
+    color: white;
+}
+.contact1 p{
+    padding: 7 0;
+    font-size: 20px;
+    color: rgba(255,255,255,.82);
+}
+
+
+
+.parint
+           {
+               overflow: auto;
+               background-color: #1f2021;
+               color: #58606b;
+               padding-bottom: 100 0;
+               
+           }
+           .parint h4{color: white; padding:20 0;}
+
+           .about10
+           {
+               width: 25%;
+               margin: 0 ;
+
+               float: left;
+           }
+
+
+           .about
+           {
+               overflow: auto;
+               width: 25%;
+               
+           }
+           .about1 
+           {
+               width: 5%;
+               float: left;
+               background-color: ;
+           }
+           .about2
+           {
+               width: 95%;
+               float: left;
+               background-color: ;
+           }
+
+
+
+           .aboutus3
+           {
+               overflow: auto;
+           }
+
+           .aboutus4
+           {
+               width: 8%;
+               float: left;
+               padding: 5 0 0 0 ;
+           }
+
+           .aboutus5
+           {
+                width: 88%;
+                float: left;
+                padding: 0 4% 0 0;
+           }
+           .about0{
+               ma
+           }
+
+           .about00
+           {
+               width:25%;
+               padding-right;10px;
+           }
+
+           .about000
+           {
+               width: 25%;
+               
+           }
+
+           .footer
+           {
+               overflow: auto;
+               color: #797979;
+               background-color: #191919;
+               
+               
+               
+           }
+           .footer1
+           {
+               width: 80%;
+               float: left;
+               
+               margin: 15 0 0 0 ;
+               
+               
+           }
+           .footer0
+           {
+               width: 20%;
+               float: left;
+               
+           }
+           .footer0 ul li
+           {
+               display: inline-block;
+               padding: 15px;
+           }
+
+           .about1{
+            
+           }
+           .about2
+           {
+               
+           }
